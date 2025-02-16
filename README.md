@@ -48,10 +48,12 @@ Training vs. Validation Accuracy
 📌 Stored logs in: "logs/fit/"
 
 4.1 Questions & Answers
-Patterns in Training & Validation Accuracy:
+1. Patterns in Training & Validation Accuracy:
 Overfitting occurs if validation accuracy stops improving while training accuracy increases.
-Using TensorBoard to Detect Overfitting:
+
+2. Using TensorBoard to Detect Overfitting:
 Check if validation loss starts increasing while training loss keeps decreasing.
-Effect of Increasing Epochs:
+
+3. Effect of Increasing Epochs:
 Too many epochs can lead to overfitting.
 Early stopping can prevent unnecessary training.
